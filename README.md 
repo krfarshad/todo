@@ -1,0 +1,45 @@
+# 📝 Todo List Application
+
+A modern **Todo List** application built with **Next.js 15**, **TypeScript**, and **Tailwind CSS**.  
+This project demonstrates clean architecture, state management with **Redux Toolkit**, data fetching with **React Query**, and beautiful UI components powered by **Radix UI** and **shadcn/ui**.
+
+👉 Live Demo: [todo.vercel.com](https://todo-sable-seven.vercel.app/)
+
+---
+
+## 🚀 Features
+
+- ✅ **Add, edit, delete, and reorder todos** (drag-and-drop with `@dnd-kit`)  
+- 🎯 **Filter tasks** (All, Completed, Uncompleted)  
+- 🔍 **Search bar** for quick filtering  
+- ♻️ **Persistent state** with `redux-persist`  
+- 📡 **Data fetching** powered by **TanStack React Query**  
+- 🎨 **Modern UI** with Tailwind CSS + Radix components  
+- ⚡ **Optimized developer experience** with Prettier, ESLint, Husky & Commitlint  
+- 🔐 **Type safety** using TypeScript and `zod`  
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** [Next.js 15](https://nextjs.org/) (App Router, Turbopack)  
+- **Language:** TypeScript  
+- **State Management:** Redux Toolkit + React Redux  
+- **Data Fetching:** TanStack React Query  
+- **UI Components:** Radix UI, shadcn/ui, TailwindCSS  
+- **Animations:** Framer Motion  
+- **Forms & Validation:** Formik + Zod  
+- **Utilities:** clsx, class-variance-authority, uuid  
+
+---
+
+## 📦 Installation
+
+Clone the repo and install dependencies:
+
+```bash
+git clone https://github.com/krfarshad/todo-list.git
+cd todo-list
+npm install
+npm run build
+npm preview
